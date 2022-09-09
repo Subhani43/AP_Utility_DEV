@@ -1,0 +1,32 @@
+<Cache>
+  <Project configuration="" />
+  <DesignComponents>
+    <DesignComponent id="Automator-8DA87771F13F346" className="Project_Start" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="GlobalContainer-8DA8C0D6B8C4906" className="GC_Controler" type="GlobalContainer" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="Script-8DA8C1149D8E1CC" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+            <Reference value="System.Core.dll" />
+            <Reference value="System.Data.dll" />
+            <Reference value="System.Design.dll" />
+            <Reference value="System.Drawing.dll" />
+            <Reference value="System.Web.dll" />
+            <Reference value="System.Windows.Forms.dll" />
+            <Reference value="System.Xml.dll" />
+            <Reference value="OpenSpan.Adapters.dll" />
+            <Reference value="OpenSpan.Adapters.Web.dll" />
+            <Reference value="OpenSpan.Adapters.Windows.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8DA8776F37804FA" className="Main" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA8777B1C09E15" className="cntConfigurationModule" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA87780AA4A334" className="cntSecretServerModule_" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA87786AC1A7DE" className="cntSelectSupplier" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA900692858021" className="DB_Insert_Log" type="Automation" isPublic="True" screenShots="" />
+  </DesignComponents>
+</Cache>

@@ -1,0 +1,15 @@
+<Cache>
+  <References>
+    <Reference value="..\..\ClecoPowerLLCSln\ClecoPowerLLCPrj\bin\Debug\ClecoPowerLLCPrj.dll" />
+    <Reference value="..\..\EntergySupplier\bin\Debug\EntergySupplier.dll" />
+    <Reference value="..\..\Kenergysln\Kenergyprj\bin\Debug\Kenergyprj.dll" />
+    <Reference value="..\..\Reusable_Automations 1\Reusable_Automations\bin\Debug\Reusable_Automations.dll" />
+    <Reference value="..\..\SecrectServerAPI\bin\Debug\SecrectServerAPI.dll" />
+  </References>
+  <Translators>
+    <Translator value="OpenSpan.Adapters.Virtual.dll" />
+  </Translators>
+  <BuildReferences>
+    <BuildReference value="RuntimeConfig.xml" />
+  </BuildReferences>
+</Cache>

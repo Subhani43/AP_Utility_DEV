@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProductVersion>19.1</ProductVersion>
+    <ProjectGuid>588d806f-6c11-4efc-b9af-ad8d41a14e60</ProjectGuid>
+    <RootNamespace>ClecoPowerLLCPrj</RootNamespace>
+    <AssemblyName>ClecoPowerLLCPrj</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <!-- Custom properties -->
+    <Name>ClecoPowerLLCPrj</Name>
+    <Id>Project-8DA85192D5C2178</Id>
+    <Version>19.1.112.0</Version>
+    <TransformationVersion>19.1.0.29</TransformationVersion>
+    <ConfigurationFile>
+    </ConfigurationFile>
+    <StartupForm>
+    </StartupForm>
+    <TargetLevel>Driver</TargetLevel>
+    <!-- Deployment -->
+    <DeploymentFiles>
+    </DeploymentFiles>
+    <InteractionConfigurationFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>True</DebugSymbols>
+    <XmlDocumentation>False</XmlDocumentation>
+    <NoWarn>108</NoWarn>
+    <!-- Deployment -->
+    <DeploymentPackage>True</DeploymentPackage>
+    <DeploymentPath>bin\Debug\</DeploymentPath>
+    <DeploymentVersion>1.0</DeploymentVersion>
+    <DeploymentVersionIncrement>True</DeploymentVersionIncrement>
+    <DeploymentIncludeRunSettings>False</DeploymentIncludeRunSettings>
+    <DeploymentTranslators>False</DeploymentTranslators>
+    <DeploymentAssemblies>True</DeploymentAssemblies>
+    <DeploymentSign>False</DeploymentSign>
+    <DeploymentCertificate>
+    </DeploymentCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>False</DebugSymbols>
+    <XmlDocumentation>False</XmlDocumentation>
+    <NoWarn>108</NoWarn>
+    <!-- Deployment -->
+    <DeploymentPackage>True</DeploymentPackage>
+    <DeploymentPath>bin\Release\</DeploymentPath>
+    <DeploymentVersion>1.0</DeploymentVersion>
+    <DeploymentVersionIncrement>True</DeploymentVersionIncrement>
+    <DeploymentIncludeRunSettings>False</DeploymentIncludeRunSettings>
+    <DeploymentTranslators>False</DeploymentTranslators>
+    <DeploymentAssemblies>True</DeploymentAssemblies>
+    <DeploymentSign>False</DeploymentSign>
+    <DeploymentCertificate>
+    </DeploymentCertificate>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OpenSpanEnvVar>PEGA_STUDIO_PATH</OpenSpanEnvVar>
+    <OpenSpanPath>$(PEGA_STUDIO_PATH)</OpenSpanPath>
+  </PropertyGroup>
+  <Import Project="$(OpenSpanPath)\OpenSpan.targets" />
+  <ItemGroup>
+    <Reference Include="GemBox.Spreadsheet, Version=43.0.35.1071, Culture=neutral, PublicKeyToken=b1b72c69714d4847">
+      <HintPath>C:\Program Files (x86)\Pegasystems\Pega Robot Studio\GemBox.Spreadsheet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Interop.UIAutomationClient, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Interop.UIAutomationClient.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a">
+      <HintPath>C:\Program Files (x86)\Pegasystems\Pega Robot Studio\log4net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters">
+      <Private>False</Private>
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Adapters.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters.Virtual">
+      <Private>False</Private>
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Adapters.Virtual.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters.Web.Universal">
+      <Private>False</Private>
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Adapters.Web.Universal.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters.Web.WebBase">
+      <Private>False</Private>
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Adapters.Web.WebBase.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters.Windows">
+      <Private>False</Private>
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Adapters.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.ApplicationFramework">
+      <Private>False</Private>
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Events, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Events.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Interactions, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Interactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.OCR, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.OCR.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Office.Excel, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Office.Excel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Recording, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Recording.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Runtime.Analytics, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Runtime.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Script, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Script.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Security, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Server.Client, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Server.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Threading, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Virtual.Interfaces, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Virtual.Interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Virtual.Web.Interfaces, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Virtual.Web.Interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.IPC.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.IPC.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.IPC.Services, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.IPC.Services.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Remoting, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.Remoting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Scout.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.Scout.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Scout.Remoting.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.Scout.Remoting.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Service.Remoting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.Service.Remoting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.SharedMemory.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.SharedMemory.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.UIAutomation, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.UIAutomation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Utilities.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.Utilities.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Windows.Broker.Interop, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.Windows.Broker.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.WinQueue.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.WinQueue.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Xray, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.Xray.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Automation">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Automation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Runtime.Core">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Runtime.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VeracodeAttributes, Version=1.0.4.0, Culture=neutral, PublicKeyToken=0bf29cff30af45b9">
+      <HintPath>C:\Program Files (x86)\Pegasystems\Pega Robot Studio\VeracodeAttributes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cleco_Power_LLC.os">
+      <SubType>Component</SubType>
+      <Id>UniversalWebAdapter-8DA8519A8EB9889</Id>
+    </Compile>
+    <Compile Include="Cleco_Start.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8DA853E1DD06698</Id>
+    </Compile>
+    <Compile Include="CreateReport.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8DA85F4E922E15C</Id>
+    </Compile>
+    <Compile Include="GetAccountNumbers_Module.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8DA854BCB3C8C7A</Id>
+    </Compile>
+    <Compile Include="GetBills_Module.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8DA86154A6905ED</Id>
+    </Compile>
+    <Compile Include="GlobalContainer.os">
+      <SubType>Component</SubType>
+      <Id>GlobalContainer-8DA852CB87A8270</Id>
+    </Compile>
+    <Compile Include="GlobalContainer.script.cs">
+      <DependentUpon>GlobalContainer.os</DependentUpon>
+      <Id>Script-8DA852D1AC8756B</Id>
+    </Compile>
+    <Compile Include="Cleco_Login_Module.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8DA89DC74D1EEF0</Id>
+    </Compile>
+    <Compile Include="Main.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8DA85265CA87EE2</Id>
+    </Compile>
+    <Compile Include="MoveFile.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8DA86010830FFF7</Id>
+    </Compile>
+    <Compile Include="Windows Form.os">
+      <SubType>Component</SubType>
+      <Id>DesignForm-8DA852D963515F4</Id>
+    </Compile>
+    <Folder Include="Properties\" />
+    <Folder Include="Public Automations" />
+    <Compile Include="Cleco_Login_Module1.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8DA85192D4A9594</Id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\ImportTypeMap.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cleco_Power_LLC.res">
+      <DependentUpon>Cleco_Power_LLC.os</DependentUpon>
+      <Deployment>DoNotDeploy</Deployment>
+    </Content>
+  </ItemGroup>
+</Project>

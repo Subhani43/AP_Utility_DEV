@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Pega Robot Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "AP_Utility_Invoice_RPA", "AP_Utility_Invoice_RPA\AP_Utility_Invoice_RPA.osproj", "{EF90CB73-47ED-4500-B31A-9B364D5F05C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{059C7CFB-BE2C-4AC8-B56F-55B5E97A67F3} = {059C7CFB-BE2C-4AC8-B56F-55B5E97A67F3}
+	EndProjectSection
+EndProject
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "Reusable_Automations", "..\Reusable_Automations 1\Reusable_Automations\Reusable_Automations.osproj", "{3117C9B8-59C9-4EEB-868A-A24F336F6C8B}"
+EndProject
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "MailConfig_Templates", "MailConfig_Templates\MailConfig_Templates.osproj", "{059C7CFB-BE2C-4AC8-B56F-55B5E97A67F3}"
+EndProject
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "Kenergyprj", "..\Kenergysln\Kenergyprj\Kenergyprj.osproj", "{F48A0921-0B43-4378-B7C4-8D6AD07ABC8F}"
+EndProject
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "SWEPCO", "..\SWEPCO\SWEPCO\SWEPCO.osproj", "{867F3559-4EF0-428D-9351-7FB3A4A76725}"
+EndProject
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "Deep East Texas", "..\Deep East Texas\Deep East Texas\Deep East Texas.osproj", "{E68C1AF6-ED90-4058-BA63-6F4B66483FE9}"
+EndProject
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "EntergySupplier", "..\EntergySupplier\EntergySupplier.osproj", "{C76F581E-9378-447A-86E4-09135A84077C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF90CB73-47ED-4500-B31A-9B364D5F05C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF90CB73-47ED-4500-B31A-9B364D5F05C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF90CB73-47ED-4500-B31A-9B364D5F05C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF90CB73-47ED-4500-B31A-9B364D5F05C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3117C9B8-59C9-4EEB-868A-A24F336F6C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3117C9B8-59C9-4EEB-868A-A24F336F6C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3117C9B8-59C9-4EEB-868A-A24F336F6C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3117C9B8-59C9-4EEB-868A-A24F336F6C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059C7CFB-BE2C-4AC8-B56F-55B5E97A67F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059C7CFB-BE2C-4AC8-B56F-55B5E97A67F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059C7CFB-BE2C-4AC8-B56F-55B5E97A67F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059C7CFB-BE2C-4AC8-B56F-55B5E97A67F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48A0921-0B43-4378-B7C4-8D6AD07ABC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48A0921-0B43-4378-B7C4-8D6AD07ABC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48A0921-0B43-4378-B7C4-8D6AD07ABC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48A0921-0B43-4378-B7C4-8D6AD07ABC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867F3559-4EF0-428D-9351-7FB3A4A76725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867F3559-4EF0-428D-9351-7FB3A4A76725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867F3559-4EF0-428D-9351-7FB3A4A76725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867F3559-4EF0-428D-9351-7FB3A4A76725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68C1AF6-ED90-4058-BA63-6F4B66483FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68C1AF6-ED90-4058-BA63-6F4B66483FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68C1AF6-ED90-4058-BA63-6F4B66483FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68C1AF6-ED90-4058-BA63-6F4B66483FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C76F581E-9378-447A-86E4-09135A84077C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76F581E-9378-447A-86E4-09135A84077C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76F581E-9378-447A-86E4-09135A84077C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76F581E-9378-447A-86E4-09135A84077C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
